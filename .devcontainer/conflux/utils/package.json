@@ -1,0 +1,31 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "devkit": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "lint": "eslint . && prettier -w --check src"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "commander": "^12.1.0",
+    "js-conflux-sdk": "^2.4.5",
+    "toml": "^3.0.0",
+    "viem": "^2.17.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "@types/iarna__toml": "^2.0.5",
+    "@types/node": "^20.14.11",
+    "eslint": "^9.6.0",
+    "globals": "^15.8.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.5.3"
+  }
+}

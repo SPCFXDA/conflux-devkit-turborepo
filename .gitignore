@@ -36,3 +36,10 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# devkit / openvscode
+.cache
+.local
+.openvscode-server
+.devcontainer/conflux/utils/dist
+.devcontainer/conflux/utils/node_modules
